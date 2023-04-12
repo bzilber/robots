@@ -1,0 +1,13 @@
+    @font-face {
+    font-family: 'bad robot 3d';
+    font-style: it;
+    font-weight: 300;
+    src: local('bad robot 3d'), url('badrobot3d.woff') format('woff');
+    }
+    
+
+    h1 {
+        font-family: 'bad robot 3d'; 
+        color: 
+           
+    }
