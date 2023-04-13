@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import CardList from './CardList'
 import {robots} from './robots'
 import SearchBox from './SearchBox'
+import Scroll from './Scroll'
 import './App.css';
 
 class App extends Component {
@@ -30,9 +31,11 @@ class App extends Component {
         })
         return (
             <div className='tc'>
-                <h1 className = 'f1'>Robots</h1>
+                <h1 className='f1'>Robots</h1>
                 <SearchBox searchChange = {this.onSearchChange} /> {/*use 'this.' cause we're using App object from its class and not a func.*/}
-                <CardList robots={filteredRobots}/>
+                <Scroll>
+                    <CardList robots={filteredRobots}/>
+                </Scroll>
             </div>
         );
     }
