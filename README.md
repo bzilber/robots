@@ -1,8 +1,8 @@
 ## To Run:
 
-`1. npm install`
+1. ` npm install`
 
-`2. npm run build`
+2. ` npm run build`
 
 ### Designed from the bottom-up, starting with the Card component. 
 
